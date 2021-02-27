@@ -13,6 +13,7 @@
     justify-content: space-evenly;
     background: var(--white);
     box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
     font-size: 8.5rem;
     text-align: center;
 }
@@ -22,11 +23,11 @@
 }
 
 .countdownContainer>div span:first-child {
-    border-right: 1px solid #f0f1f3;
+    border-right: 1px solid #f8f1f3;
 }
 
 .countdownContainer>div span:last-child {
-    border-left: 1px solid #f0f1f3;
+    border-left: 1px solid #f8f1f3;
 }
 
 .countdownContainer>span {
@@ -50,6 +51,10 @@
     transition: background-color 0.2s;
 }
 
+.countdownButton svg {
+    margin-left: 16px;
+}
+
 .countdownButton:not(:disabled):hover {
     background: var(--blue-dark);
 }
@@ -68,4 +73,5 @@
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border-bottom: 4px solid #4CD62B;
 }

@@ -1,3 +1,16 @@
+.profileRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileRow svg {
+    color: #F2C94C;
+    font-size: 46px;
+    cursor: pointer;
+    margin-left: 2.3rem;
+}
+
 .profileContainer {
     display: flex;
     align-items: center;
@@ -16,7 +29,7 @@
 .profileContainer div strong {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--title)
+    color: var(--title);
 }
 
 .profileContainer div p {
