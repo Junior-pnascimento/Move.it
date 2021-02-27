@@ -3,7 +3,7 @@
 
 </br>
 
-<img src="./moveit.gif" align="center" />
+<img src="./public/moveit.gif" align="center" />
 
 </br>
 
