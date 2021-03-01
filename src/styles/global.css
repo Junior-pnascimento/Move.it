@@ -64,3 +64,18 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+@media (max-width: 420px) {
+    html {
+        font-size: 87.5%;
+    }
+    body,
+    input,
+    textarea,
+    button {
+        font: 400 1rem "Inter", sans-serif;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+}
